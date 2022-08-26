@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('config');
+const config = require('../../config/default');
 const sinon = require('sinon');
 const assert = require('chai').assert;
 

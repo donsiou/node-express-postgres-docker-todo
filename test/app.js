@@ -1,5 +1,5 @@
 'use strict';
-const config = require('config');
+const config = require('../config/default');
 
 const { getApp } = require('../server/app');
 const { getContext } = require('../server/context');

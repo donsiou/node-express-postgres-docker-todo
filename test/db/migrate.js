@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const config = require('config');
+const config = require('./../../config/default');
 const assert = require('chai').assert;
 const { parse } = require('pg-connection-string');
 

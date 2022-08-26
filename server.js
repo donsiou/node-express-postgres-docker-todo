@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('config');
+const config = require('config/default');
 const stoppable = require('stoppable');
 
 const { getApp } = require('./server/app');
